@@ -1,0 +1,27 @@
+{
+  "Comment": "Create a subdomain NS record in the parent domain",
+  "Changes": [
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "kubetest.timman.me",
+        "Type": "NS",
+        "TTL": 300,
+        "ResourceRecords": [
+          {
+            "Value": "ns-451.awsdns-56.com"
+          },
+          {
+            "Value": "ns-1278.awsdns-31.org"
+          },
+          {
+            "Value": "ns-540.awsdns-03.net"
+          },
+          {
+            "Value": "ns-1682.awsdns-18.co.uk"
+          }
+        ]
+      }
+    }
+  ]
+}
